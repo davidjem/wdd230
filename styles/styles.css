@@ -1,0 +1,42 @@
+header {
+    /* border-color: black; */
+    display: flex;
+}
+
+img {
+    /* max-width: 20%; */
+    max-width: 7em;
+}
+
+body {
+    max-width: 750px;
+    align-items: center;
+    display: grid;
+    /* align-items: center; */
+    /* align-content: center; */
+    margin: 1.5 auto;
+    margin: auto;
+}
+
+header {
+    background-color: cadetblue;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+}
+
+img {
+    align-items: center;
+}
+
+
+footer {
+    max-width: 750px;
+    background: cadetblue;
+    display: grid;
+    padding: 0.5em;
+    border-radius: 1.5em;
+    /* align-content: center; */
+}
+
