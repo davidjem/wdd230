@@ -34,3 +34,7 @@ footer {
     border-radius: 1.5em;
     grid-template-rows: 50% 50%;
 }
+p {
+    align-items: center;
+    margin-left: 150px;
+}
