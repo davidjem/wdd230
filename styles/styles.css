@@ -4,7 +4,8 @@ img {
 }
 
 body {
-    font-family: "Open Sans";
+    background-color:  #C5D5E4;
+    font-family: 'Open Sans', sans-serif;
     max-width: 750px;
     align-items: center;
     display: grid;
@@ -13,7 +14,8 @@ body {
 }
 
 header {
-    background-color: cadetblue;
+    border: 1px solid #bacdd8;
+    background-color:  #1e55882d;
     border-radius: 2em;
     justify-content: center;
     align-items: center;
@@ -29,7 +31,8 @@ img {
 
 footer {
     max-width: 750px;
-    background: cadetblue;
+    border: 1px solid #bacdd8;
+    background-color:  #1e55882d;
     display: grid;
     padding: 0.5em;
     border-radius: 1.5em;
