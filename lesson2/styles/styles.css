@@ -47,7 +47,7 @@ img {
 }
 footer{
     grid-area: 4 / 1 / 5 / 4;
-    padding-left: 500px;
+    padding-left: 7em;
     margin-top: 2em;
     background-color:  #1e55882d;
 

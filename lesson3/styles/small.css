@@ -1,0 +1,20 @@
+@media only screen and (max-width: 730px){
+    header{
+        display: grid;
+        grid-template-rows:auto 50%;
+        grid-template-columns: auto;
+    }
+    nav{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        
+    }
+    nav a{
+        display: flex;
+        flex: 1 1 auto;
+        padding-bottom: 1em;
+    }
+    footer{
+        padding-left: 1em;
+    }
+}
