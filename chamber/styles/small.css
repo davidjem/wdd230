@@ -11,6 +11,8 @@ p{
 }
 .card{
     border: 1px solid black;
+    background-color: rgba(152, 168, 180, 0.47)
+    
 }
 #facebook-icon, #mail-icon, #map-icon{
     color: black;
@@ -22,8 +24,12 @@ footer{
 #navigation{
     background-color: #5475A0;
 }
+/* #primarynav:hover{
+    background-color: black;
+} */
 .logo{
-    width: 20vh;
+    width: 10vh;
+    border-radius: 2em;
 
 }
 footer .logo{
@@ -81,10 +87,21 @@ nav ul.open{
 #hamburguerBtn.open span:nth-child(2) {
     display:block;
 }
+.herocard{
+    position: relative;
+    text-align: center;
+}
+.herotext{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 80px;
+    color: #fff;
+}
 .card{
     margin:10px;
 }
-.card p{
+.card p, h1, h2{
     padding: 20px;
 }
 
