@@ -1,3 +1,23 @@
+// WEEKDAY MESSAGE
+
+var weekday = new Array(7)
+
+weekday[0] = "spectacular Sunday"
+weekday[1] = "marvelous Monday! 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+weekday[2] = "terrific Tuesday"
+weekday[3] = "wonderful Wednesday"
+weekday[4] = "totally cool Thursday"
+weekday[5] = "fantastic Friday"
+weekday[6] = "sweet Saturday"
+
+var currentDate = new Date()
+weekdayValue = currentDate.getDay()
+
+document.getElementById('weektext').innerHTML = (
+  '<p>Have a ' + weekday[weekdayValue] + '!</p>'
+) 
+// -------------------------------------------------------------
+
 // toggle menu
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
