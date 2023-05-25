@@ -16,13 +16,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <script src="scripts/script.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+
 
 </head>
 <body>
     <header>
         <div id="navigation">
             <a id="logo_link" href="index.html">
-                <img class = "logo" src ="images/updatedlogo.jpeg" alt="Chamber Logo" >
+                <!-- <img class = "logo" src ="images/updatedlogo.jpeg" alt="Chamber Logo" > -->
+                <img class = "logo" src="images/chamberlogo200.webp" alt="Chamber logo" sizes="50vw"
+                 srcset="images/chamberlogo100.webp 100w,
+                 images/chamberlogo200.webp 200w,">
             </a>
             <!-- navigation bar -->
             <nav>
@@ -50,8 +55,12 @@
         <div id="hero">
             <div class="herocard">
                 <!-- <p>The hero image will go here</p> -->
-                <img id="heroimage" src="images/provohero.jpg" alt="provo city image">
-                <div class="herotext">Welcome to the Provo chamber of commerce</div>
+                <!-- <img id="heroimage" src="images/provohero.jpg" alt="provo city image"> -->
+                <img src="images/wdd230-org.jpg" alt="Chamber hero" sizes="50vw"
+                 srcset=" images/w06hero200.jpg 200w,
+                         images/w06hero500.jpg 500w,
+                         images/w06hero800.jpg 800w,">
+                <!-- <div class="herotext">Welcome to the Provo chamber of commerce</div> -->
                 <div id="weektext">The text would go here</div>
             </div>
         </div>
@@ -92,7 +101,16 @@
         <div id="weather">
             <div class="card">
                 <h2>The weather today </h2>
-                <img class="weatherinfo" src="images/weatherinfo.png" alt="weather placeholder">
+                <h3><span id="temperature">20</span>°F</h3>
+                <h3>Partly Cloudy ⛅</h3>
+                <h3>Wind Speed:</span id="windspeed">5</span>mph</h3>
+
+                <!-- "Wind Chill Temperature is officially defined for temperatures
+                at or below 10 °C (50 °F) and wind speeds above 4.8 kilometers per
+                hour (3.0 mph)." -->
+
+                <h3>WindChill: <span id="windchill">N/A</span></h3>
+                <!-- <img class="weatherinfo" src="images/weatherinfo.png" alt="weather placeholder"> -->
             </div>
         </div>
         <div id="news">
@@ -117,7 +135,12 @@
 
     <footer>
         <a href="index.html">
-            <img class = "logo" src ="images/updatedlogo.jpeg" alt="Chamber Logo" >
+            <figure class="footerlogo">
+                <!-- <img class = "logo" src ="images/updatedlogo.jpeg" alt="Chamber Logo" > -->
+                <img class = "logo" src="images/chamberlogo200.webp" alt="Chamber logo" sizes="50vw"
+                 srcset="images/chamberlogo100.webp 100w,
+                 images/chamberlogo200.webp 200w,">
+            </figure>
         </a>
         <div id="copyright">
             <p >&copy; <span id="year"> </span> David Julian Esguerra | Bogota, Colombia</p>

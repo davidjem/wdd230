@@ -1,0 +1,38 @@
+body{
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 80vh;
+    background-color: beige;
+    
+}
+h1{
+    padding-left: 50vh;
+}
+.box1, .box2, .box3{
+    width: 200px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    
+
+}
+.box1, .box2, .box3 p{
+    padding: 20px;
+}
+
+.box1{
+    background-color: rgba(255, 255, 0, 0.767);
+}
+.box2{
+    background-color: rgba(0, 0, 255, 0.801);
+}
+.box3{
+    background-color: rgba(255, 0, 0, 0.815);
+}
