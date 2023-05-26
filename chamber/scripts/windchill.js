@@ -7,6 +7,10 @@
 
 let temp = 20;
 let speed = 5;
+var spantemp = document.getElementById("temperature").innerText;
+var spanspeed = document.getElementById("windspeed").innerText;
+
+console.log(span_Text)
 
 // let temp = document.getElementById("temperature");    
 // let speed = document.getElementById("windspeed");
@@ -22,8 +26,8 @@ if ((speed > 3) && (temp < 50)){
 else{
     windchill = ('N/A');
 }
-console.log(Math.round(windchill));
-console.log(document.getElementById("temperature"));
-console.log(document.getElementById("windspeed"));
+// console.log(Math.round(windchill));
+// console.log(spantemp);
+// console.log(spanspeed);
 
 document.querySelector('#windchill').textContent = windchill;
