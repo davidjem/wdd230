@@ -104,8 +104,16 @@ nav ul.open{
     color: #fff;
 }
 
-.card p, h1, h2{
+.card p, h1, h2, img{
     padding: 20px;
+    
+}
+
+#discover-main img{
+    width: 300px;
+}
+#discover-main :hover img{
+    transform:scale(1.1);
 }
 
 

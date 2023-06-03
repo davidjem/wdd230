@@ -58,6 +58,14 @@
         align-self: center;
         padding-left: 90vh;
     }
+    #discover-main{
+        display: inline;
+    }
+    #discover-main img{
+        width: 500px;
+    }
+    
+    
     main{
         display:grid;
         grid-template-columns: auto auto auto auto;
