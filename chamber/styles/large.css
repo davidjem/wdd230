@@ -58,12 +58,20 @@
         align-self: center;
         padding-left: 90vh;
     }
+ 
     #discover-main{
-        display: inline;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1em;
+        
     }
     #discover-main img{
         width: 500px;
     }
+    #discover-main :hover img{
+        transform:scale(1.1);
+    }
+
     
     
     main{

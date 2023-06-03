@@ -112,9 +112,6 @@ nav ul.open{
 #discover-main img{
     width: 300px;
 }
-#discover-main :hover img{
-    transform:scale(1.1);
-}
 
 
 
