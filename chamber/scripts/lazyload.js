@@ -47,3 +47,6 @@ function clearCacheAndReload() {
 function reload() {    
   location.reload();
 }
+
+
+

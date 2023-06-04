@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Provo Chambber Of Commerce</title>
-    <link rel="stylesheet" href="../styles/normalize.css">
+    <!-- <link rel="stylesheet" href="../styles/normalize.css"> -->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -17,6 +17,7 @@
 
     <script src="scripts/script.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <!-- <script src="scripts/lazyload.js"defer></script> -->
 
 
 </head>
@@ -25,9 +26,9 @@
         <div id="navigation">
             <a id="logo_link" href="index.html">
                 <!-- <img class = "logo" src ="images/updatedlogo.jpeg" alt="Chamber Logo" > -->
-                <img class = "logo" src="images/chamberlogo200.webp" alt="Chamber logo" sizes="50vw"
-                 srcset="images/chamberlogo100.webp 100w,
-                 images/chamberlogo200.webp 200w"
+                <img class = "logo" src="images/chamber-logo-200.webp" alt="Chamber logo" sizes="50vw"
+                 srcset="images/chamber-logo-100.webp 100w,
+                 images/chamber-logo-200.webp 200w"
                >
             </a>
             <!-- navigation bar -->
@@ -55,15 +56,17 @@
     <main>
         <div id="hero">
             <div class="herocard">
+                <div id="weektext">The text would go here</div>
+
                 <!-- <p>The hero image will go here</p> -->
                 <!-- <img id="heroimage" src="images/provohero.jpg" alt="provo city image"> -->
                 <img src="images/hero.jpg" alt="Chamber hero" sizes="50vw"
-                 srcset=" images/w06hero200.jpg 200w,
-                         images/w06hero500.jpg 500w,
-                         images/w06hero800.jpg 800w"
+                 srcset=" images/w06-hero-200.jpg 200w,
+                         images/w06-hero-500.jpg 500w,
+                         images/w06-hero-800.jpg 800w"
                        >
                 <!-- <div class="herotext">Welcome to the Provo chamber of commerce</div> -->
-                <div id="weektext">The text would go here</div>
+                <!-- <div id="weektext">The text would go here</div> -->
             </div>
         </div>
         <div id="events">
@@ -139,9 +142,9 @@
         <a href="index.html">
             <figure class="footerlogo">
                 <!-- <img class = "logo" src ="images/updatedlogo.jpeg" alt="Chamber Logo" > -->
-                <img class = "logo" src="images/chamberlogo200.webp" alt="Chamber logo" sizes="50vw"
-                 srcset="images/chamberlogo100.webp 100w,
-                 images/chamberlogo200.webp 200w">
+                <img class = "logo" src="images/chamber-logo-200.webp" alt="Chamber logo" sizes="50vw"
+                 srcset="images/chamber-logo-100.webp 100w,
+                 images/chamber-logo-200.webp 200w">
             </figure>
         </a>
         <div id="copyright">
