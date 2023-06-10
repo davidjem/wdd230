@@ -4,9 +4,10 @@ var today = new Date();
 if(today.getDay() == 2){
   document.getElementById('weektext').innerHTML = ('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
   console.log('Tuesday!');
+  
 } 
 else{
-  console.log('Not tuesday')
+  console.log('Not tuesday :(')
   document.getElementById('weektext').innerHTML = ('Welcome to the chamber of commerce website')
 }
 
@@ -59,6 +60,9 @@ let month = date.getMonth() + 1;
 let year = date.getFullYear();
 
 let display = `${month}-${day}-${year}`;
+
+document.getElementById('timeStamp').value= display ; 
+console.log('display');
 
 document.querySelector("#current-date").innerHTML = display;
 

@@ -152,5 +152,24 @@
         margin: 10px;
     
     }
-  
+
+    /* form--------------------- */
+
+    form label.sbs{
+        padding:  .4rem 0;
+    }
+    table{
+        display: block;
+        padding-top: 30px;
+        width: 400px;
+        grid-column: 4/5;
+    }
+    table td{
+        padding: 10px;
+    }
+    table th{
+        padding: 20px;
+    }
+    
+
 }

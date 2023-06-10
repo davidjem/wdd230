@@ -22,6 +22,11 @@
     #discover-main :hover img{
         transform:scale(1.1);
     }
+    table{
+        display: none;
+    }
+
+    
     
     
     
