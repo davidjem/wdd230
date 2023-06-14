@@ -1,0 +1,28 @@
+header h1{
+    color: rgb(49, 124, 223);
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2{
+    color: blue;
+}
+img {
+    width: auto;
+      max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333;
+  }
+.cards{
+    background-color: rgb(171, 201, 245);
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+    padding: 35px;
+}
