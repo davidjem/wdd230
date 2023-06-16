@@ -1,6 +1,6 @@
-{
-    "Businesses": [
-      {
+{ 
+    "businesses": [
+    {
         "name": "Bob's auto",
         "address": "344 hope and pray road",
         "phone": "(385)7228367",
@@ -72,5 +72,5 @@
         "membership": "bronze",
         "imageurl": "images/theykeyattorneys.jpg"
       }
-    ]
-  }
+]
+}
