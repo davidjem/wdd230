@@ -46,14 +46,14 @@
         "phone": "(385)9882103",
         "website": "mattscomputerservice.com",
         "membership": "gold",
-        "imageurl": "images/bobsauto.png"
+        "imageurl": "images/mattscomputerservice.jpg"
       },
       {
-        "name": "Bob's auto",
-        "address": "908 hope and pray road",
+        "name": "Matts's Computer Service",
+        "address": "9866 horse road",
         "phone": "(385)7228367",
-        "website": "bobsauto.com",
-        "membership": "silver",
+        "website": "mattscomputers.com",
+        "membership": "bronze",
         "imageurl": "images/mattscomputerservice.jpg"
       },
       {

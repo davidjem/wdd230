@@ -21,15 +21,20 @@ async function getBusinessData() {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
-      let p = document.createElement('p');
+      let p = document.createElement('a');
       let p2 = document.createElement('p');
+      let p3 = document.createElement('p');
       let portrait = document.createElement('img');
   
       // Build the h2 content out to show the prophet's full name - finish the template string
     
-      h2.textContent = `${business.name} ${business.lastname}`;
-      p.textContent = `Date of birth: ${business.birthdate}`;
-      p2.textContent = `Place of birth: ${business.birthplace}`;
+      h2.textContent = `${business.name}`;
+      p.textContent = `${business.website}`;
+      p2.textContent = `Phone number: ${business.phone}`;
+      p3.textContent = `${business.address}`;
+    
+      
+
 
       
       // Build the image portrait by setting all the relevant attribute
@@ -41,8 +46,11 @@ async function getBusinessData() {
   
       // Append the section(card) with the created elements
       card.appendChild(h2);
-      card.appendChild(p);
       card.appendChild(p2);
+      card.appendChild(p3);
+
+
+      card.appendChild(p);
       card.appendChild(portrait);
   
       directoryCards.appendChild(card);
