@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Bob's auto",
+        "address": "344 hope and pray road",
+        "phone": "(385)7228367",
+        "website": "bobsauto.com",
+        "membership": "silver",
+        "imageurl": "images/bobsauto.png"
+      },
+      {
+        "name": "The Fat Bagel",
+        "address": "329 North 3rd street",
+        "phone": "(385)9888283",
+        "website": "thefatbagel.com",
+        "membership": "bronze",
+        "imageurl": "images/thefatbagel.jpg"
+      },
+      {
+        "name": "Don Jon grill",
+        "address": "888 Exquisite street",
+        "phone": "(385)3990217",
+        "website": "bobsauto.com",
+        "membership": "gold",
+        "imageurl": "images/donjongrill.png"
+      },
+      {
+        "name": "Maria Bridals",
+        "address": "1010 shesaidyes road",
+        "phone": "(385)9876546",
+        "website": "mariabridals.com",
+        "membership": "gold",
+        "imageurl": "images/mariabridals.png"
+      },
+      {
+        "name": "Border Tacos",
+        "address": "864 Exquisite street",
+        "phone": "(385)97772037",
+        "website": "bordertacos.com",
+        "membership": "bronze",
+        "imageurl": "images/bordertacos.jpg"
+      },
+      {
+        "name": "Matt's computer service",
+        "address": "9876 Silicon Street",
+        "phone": "(385)9882103",
+        "website": "mattscomputerservice.com",
+        "membership": "gold",
+        "imageurl": "images/bobsauto.png"
+      },
+      {
+        "name": "Bob's auto",
+        "address": "908 hope and pray road",
+        "phone": "(385)7228367",
+        "website": "bobsauto.com",
+        "membership": "silver",
+        "imageurl": "images/mattscomputerservice.jpg"
+      },
+      {
+        "name": "Hannah's Music Store",
+        "address": "857 Sound street",
+        "phone": "(385)987576",
+        "website": "hannahsmusicstore.com",
+        "membership": "gold",
+        "imageurl": "images/hannahsmusicstore.png"
+      },
+      {
+        "name": "The Key Attorneys",
+        "address": "988 Court road",
+        "phone": "(385)9827383",
+        "website": "thekeyattorneys.com",
+        "membership": "bronze",
+        "imageurl": "images/theykeyattorneys.jpg"
+      }
+]
