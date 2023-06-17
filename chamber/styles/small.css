@@ -249,7 +249,7 @@ table{
     background-color: rgb(171, 201, 245);
     display: grid;
     grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1em;
+    grid-gap: 4em;
     padding: 35px;
 }
 .directoryCards img{
@@ -258,6 +258,7 @@ table{
   box-shadow: 0 0 30px #777;
   height: 200px;
   border: 1px solid #333;
+  
 }
 
 
