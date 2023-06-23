@@ -5,29 +5,20 @@
 //   hour (3.0 mph)."
 
 
-let temp = 20;
-let speed = 5;
-var spantemp = document.getElementById("temperature");
-var spanspeed = document.getElementById("windspeed");
+// let temp = 20;
+// let speed = 5;
 
-console.log(spantemp.value);
+// let windchill = 0;
 
-// let temp = document.getElementById("temperature");    
-// let speed = document.getElementById("windspeed");
+// if ((speed > 3) && (temp < 50)){
+//     windchillresult = 35.74 + 0.6215*temp - 35.75 * speed**0.16 + 0.4275 * temp * speed**0.16;
 
-let windchill = 0;
-
-if ((speed > 3) && (temp < 50)){
-    // windchillresult = 35.74 + (0.6215*temp) - (((35.75*(speed**0.16)) + 0.4275) * (temp * (speed**0.16)));
-    windchillresult = 35.74 + 0.6215*temp - 35.75 * speed**0.16 + 0.4275 * temp * speed**0.16;
-
-    windchill = Math.round(windchillresult);
-}
-else{
-    windchill = ('N/A');
-}
+//     windchill = Math.round(windchillresult);
+// }
+// else{
+//     windchill = ('N/A');
+// }
 // console.log(Math.round(windchill));
-console.log(spantemp.value);
-// console.log(spanspeed);
 
-document.querySelector('#windchill').textContent = windchill;
+
+// document.querySelector('#windchill').textContent = windchill;
