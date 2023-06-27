@@ -70,8 +70,8 @@ function  displayResults(weatherData) {
   }
 
 
-  console.log(temp);
-  console.log(speed);
+  // console.log(temp);
+  // console.log(speed);
 
 
   // let temp = 13;
