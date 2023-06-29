@@ -132,8 +132,8 @@ let display = `${month}-${day}-${year}`;
 
 
 
-document.getElementById('timeStamp').value = display; 
-console.log('display');
+// document.getElementById('timeStamp').value = display; 
+// console.log('display');
 
 
 document.querySelector("#current-date").innerHTML = display;
