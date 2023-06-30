@@ -9,7 +9,7 @@ header,footer,h1,h2,h3,div, figcaption{
 p{
     font-family:'Open Sans',sans-serif;;
 }
-.card{
+.card, .spotlight{
     border: 1px solid black;
     background-color: rgba(152, 168, 180, 0.47)
     
@@ -186,6 +186,18 @@ form input.submitBtn{
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+
+}
+
+button.joinBtn{
+    border: none;
+    background-color:#5475A0;
+    color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 20px;
+    width: 90%;
+    /* max-width: 20rem; */
 
 }
 

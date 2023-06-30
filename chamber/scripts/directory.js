@@ -5,11 +5,12 @@ const url = 'https://davidjem.github.io/wdd230/chamber/data/data.json';
 async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
+    console.table(data.businesses);  // note that we reference the array of the data object given the structure of the json file
     displayBusinesses(data.businesses);
 
 
   }
+  
   
   
   getBusinessData();     

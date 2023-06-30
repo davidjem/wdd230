@@ -87,8 +87,8 @@
         
     }
     #hero img{
-        max-width:50em;
-        padding-left: 8em;
+        max-width:40em;
+        padding-left: 2em;
         /* grid-area: 1/2/2/3; */
     }
     #hero p{
@@ -118,6 +118,7 @@
         padding: 20px;
     }
     #second-card{
+        display:none;
         grid-area: 1/3/2/4;
         margin: 10px;
         margin-top: 80px;
@@ -125,15 +126,21 @@
     
     }
     #third-card{
+        display: none;
         grid-area:  4/3/3/4;
         width: 200px;        
         margin: 10px;
     
     }
-    #events{
-        grid-area: 1/1/2/2;
-        margin: 10px;
+    #spotlights{
+        grid-area: 1/3/4/4;
         margin-top: 90px;
+    }
+    #events{
+        grid-area: 2/1/3/2;
+
+        margin: 10px;
+        
         max-width: 20em;
         max-height: 40em;
     
@@ -150,8 +157,9 @@
     
     }
     #weather{
-        grid-area: 2/1/3/2;
-        margin: 10px;
+        grid-area: 1/1/2/2;
+        margin-top: 90px;
+        /* margin: 10px; */
         max-width: 20em;
     
     }
@@ -159,6 +167,7 @@
         width:15em;
     }
     #call-action{
+        display: none;
         grid-area: 2/3/3/4;
         margin: 10px;
         width: 200px;
