@@ -1,0 +1,40 @@
+@media only screen and (min-width: 40rem) {
+    
+    nav button{
+        display:none;
+    }
+    nav ul#primaryNav{
+        display:flex;
+
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+    /* #heroimage{
+        width: 60em;
+    } */
+    #hero img{
+        width: 100%;
+        /* max-width: 20rem; */
+        /* width: 25em; */
+        /* max-width:40em; */
+        /* grid-area: 1/2/2/3; */
+    }
+    #discover-main img{
+        width: 400px;
+    }
+    #discover-main :hover img{
+        transform:scale(1.1);
+    }
+    table{
+        display: none;
+    }
+
+    
+    
+    
+    
+}
