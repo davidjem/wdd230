@@ -37,19 +37,19 @@ function DefaultScreen(){
 
 
 //Getting and displaying the text for the upcoming days of the week
-var d = new Date();
+var dayy = new Date();
 var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",];
 
 //Function to get the correct integer for the index of the days array
 function CheckDay(day){
-    if(day + d.getDay() > 6){
-        return day + d.getDay() - 7;
+    if(day + dayy.getDay() > 6){
+        return day + dayy.getDay() - 7;
     }
     else{
-        return day + d.getDay();
+        return day + dayy.getDay();
     }
 }
 
 for(i = 0; i<5; i++){
-    document.getElementById("day" + (i+1)).innerHTML = weekday[CheckDay(i)];
+    document.getElementById("day" + (i+1)).textContent = weekday[CheckDay(i)];
 }
