@@ -27,8 +27,8 @@ async function getBusinessData() {
       let p3 = document.createElement('p');
       let portrait = document.createElement('img');
   
-      // Build the h2 content out to show the prophet's full name - finish the template string
-    
+      // Build the h2 content out to show the full name 
+      
       h2.textContent = `${business.name}`;
       p.textContent = `${business.website}`;
       p2.textContent = `Phone number: ${business.phone}`;
