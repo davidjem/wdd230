@@ -56,14 +56,14 @@
 
     <!----------------------------- HTML FORM STARTS HERE --------------------------------------------------->
 
-    <form  method="get" action="thanks.html">
+    <form  method="get">
         <fieldset>
             
             <legend>Request Special Drink</legend>
             <input type="hidden" name="timeStampID" id='timeStamp' />
-            <label class="top">First Name*<input type="text" name="fname" autofocus required></label>
-            <label class="top">Email*<input type="email" name="emial" placeholder="youremail@any.com" required></label>
-            <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top">First Name*<input id="userName" type="text" name="fname" autofocus required></label>
+            <label class="top">Email*<input id="email" type="email" name="emial" placeholder="youremail@any.com" required></label>
+            <label class="top">Phone<input  id="phone" type="tel" name="phone" placeholder="1235551234"></label>
             
             <fieldset>Fruit selection
                 <fieldset>Select your first fruit
@@ -77,7 +77,7 @@
                         <label id="item2"class="sbs" ><input id="item2" type="radio" name="fruit" value="item2" >Huckleberry</label>
                         <label id="item3" class="sbs" ><input id="item3" type="radio" name="fruit" value="item3" >Blackberry</label> -->
                     </div>
-                    <button onclick="getOption('#mySelect1','.output1')">Select Fruit</button>
+                    <button  type="button" onclick="getOption('#mySelect1','.output1')">Select Fruit</button>
 
                     <p> Your selected fruit is:
                         <span class="output1"></span>
@@ -92,7 +92,7 @@
                     <div id="fruit">
                         
                     </div>
-                    <button onclick="getOption('#mySelect2','.output2')">Select Fruit</button>
+                    <button type="button" onclick="getOption('#mySelect2','.output2')">Select Fruit</button>
 
                     <p> Your selected fruit is:
                         <span class="output2"></span>
@@ -107,7 +107,7 @@
                     <div id="fruit">
                         
                     </div>
-                    <button onclick="getOption('#mySelect3','.output3')">Select Fruit</button>
+                    <button  type="button" onclick="getOption('#mySelect3','.output3')">Select Fruit</button>
 
                     <p> Your selected fruit is:
                         <span class="output3"></span>
@@ -118,20 +118,22 @@
             
 
             <fieldset>
-                <label class="sbs">Add special instructions here</label>
-                <textarea class="sbs" name="businessDescription"
+                <label  class="sbs">Add special instructions here</label>
+                <textarea id="instructions" class="sbs" name="businessDescription"
                         rows="5" cols="45">
                 </textarea>
             </fieldset>
 
 
         </fieldset>
-        <button class="submitBtn" type="submit" onclick="surveyResult()">Create My drink</button>
+        <button class="submitBtn" type="button" onclick="surveyResult()">Create My drink</button>
 
-        <!-- <input type="submit" value="Get my drink!" class="submitBtn"> -->
 
 
     </form>
+    <section id="orderPlaced">
+
+    </section>
     
     
 

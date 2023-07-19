@@ -93,8 +93,63 @@ function surveyResult (){
     console.log(totalCalories);
     console.log(totalCarbs);
     console.log(Math.round(totalFat * 100) / 100);
-    console.log(Math.round(totalProtein * 100 ) );
+    console.log(Math.round(totalProtein * 100 ) / 100);
     console.log(Math.round(totalSugar * 100 ) / 100 );
+
+    function displayOrder (){
+      let section = document.getElementById('orderPlaced');
+      let name = document.createElement('h2');
+      let email = document.createElement('h2');
+      let phone = document.createElement('h2');
+      let fruits = document.createElement('h2');
+      let instructions = document.createElement('h2');
+      let date = document.createElement('h2');
+      let calories = document.createElement('h2');
+      let carbs = document.createElement('h2');
+      let fat = document.createElement('h2');
+      let protein = document.createElement('h2');
+      let sugar = document.createElement('h2');
+
+      name.textContent = `Name: ${document.getElementById('userName').value}`;
+      email.textContent = `Email: ${document.getElementById('email').value}`;
+      phone.textContent = `Phone: ${document.getElementById('phone').value}`;
+      fruits.textContent = `Selected Fruits: ${firstSelection}, ${secondSelection} ,and${thirdSelection}`;
+      instructions.textContent = `Additional Instructions: ${document.getElementById('instructions').value}`;
+
+      date.textContent = `Date of the order: ${document.getElementById('userName')}`;
+
+      calories.textContent = `Total Calories: ${totalCalories}`;
+      carbs.textContent = `Total Carbohydrates: ${totalCarbs}`;
+      fat.textContent = `Total Fat: ${Math.round(totalFat * 100) / 100}`;
+      protein.textContent = `Total Protein: ${Math.round(totalProtein * 100 ) / 100}`;
+      sugar.textContent  = `Total Sugar: ${Math.round(totalSugar * 100) / 100}`;
+
+
+      section.appendChild(name);
+      section.appendChild(email);
+      section.appendChild(phone);
+      section.appendChild(fruits);
+      section.appendChild(instructions);
+      section.appendChild(date);
+      section.appendChild(calories);
+      section.appendChild(carbs);
+      section.appendChild(fat);
+      section.appendChild(protein);
+      section.appendChild(sugar);
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    displayOrder()
     // console.log(timestamp);
   }
   
