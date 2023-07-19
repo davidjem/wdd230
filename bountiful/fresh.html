@@ -65,22 +65,56 @@
             <label class="top">Email*<input type="email" name="emial" placeholder="youremail@any.com" required></label>
             <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
             
+            <fieldset>Fruit selection
+                <fieldset>Select your first fruit
+                    
+                    <select  id="mySelect1" name="dropdown" 
+                    
+                    ></select>
 
-            <fieldset>Select one of our special fruits available
-                
-                <select multiple id="mySelect" name="dropdown" 
-                
-                multiselect-search="true" 
-                multiselect-select-all="true" 
-                multiselect-max-items="3"
-                multiselect-hide-x = "false" ></select>
+                    <div id="fruit">
+                        <!-- <label id="item1" class="sbs"><input  type="radio" name="fruit" value="item1">Mango</label>
+                        <label id="item2"class="sbs" ><input id="item2" type="radio" name="fruit" value="item2" >Huckleberry</label>
+                        <label id="item3" class="sbs" ><input id="item3" type="radio" name="fruit" value="item3" >Blackberry</label> -->
+                    </div>
+                    <button onclick="getOption('#mySelect1','.output1')">Select Fruit</button>
 
-                <div id="fruit">
-                    <!-- <label id="item1" class="sbs"><input  type="radio" name="fruit" value="item1">Mango</label>
-                    <label id="item2"class="sbs" ><input id="item2" type="radio" name="fruit" value="item2" >Huckleberry</label>
-                    <label id="item3" class="sbs" ><input id="item3" type="radio" name="fruit" value="item3" >Blackberry</label> -->
-                </div>
+                    <p> Your selected fruit is:
+                        <span class="output1"></span>
+                    </p>
+                </fieldset>
+                <fieldset>Select your second fruit
+                    
+                    <select  id="mySelect2" name="dropdown" 
+                    
+                    ></select>
+
+                    <div id="fruit">
+                        
+                    </div>
+                    <button onclick="getOption('#mySelect2','.output2')">Select Fruit</button>
+
+                    <p> Your selected fruit is:
+                        <span class="output2"></span>
+                    </p>
+                </fieldset>
+                <fieldset>Select your third fruit
+                    
+                    <select  id="mySelect3" name="dropdown" 
+                    
+                    ></select>
+
+                    <div id="fruit">
+                        
+                    </div>
+                    <button onclick="getOption('#mySelect3','.output3')">Select Fruit</button>
+
+                    <p> Your selected fruit is:
+                        <span class="output3"></span>
+                    </p>
+                </fieldset>
             </fieldset>
+            
             
 
             <fieldset>
@@ -92,7 +126,9 @@
 
 
         </fieldset>
-        <input type="submit" value="Get my drink!" class="submitBtn">
+        <button class="submitBtn" type="submit" onclick="surveyResult()">Create My drink</button>
+
+        <!-- <input type="submit" value="Get my drink!" class="submitBtn"> -->
 
 
     </form>
@@ -121,10 +157,11 @@
         
     </footer>
    
-    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js" ></script>
-    <script >
+    <!-- <script  src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+    <script defer>
         new MultiSelectTag('mySelect')  // id
-    </script>
+    </script> -->
+
     
 </body>
 </html>
