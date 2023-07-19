@@ -128,7 +128,11 @@
 
 
         </fieldset>
-        <button class="submitBtn" type="button" onclick="surveyResult()">Create My drink</button>
+
+        <p>Drinks submitted: <div id='clickCounter'></div></p>   
+
+
+        <button id="getDrink" class="submitBtn clickButton" type="button" onclick="surveyResult(), clickButtonFunction()" >Create My drink</button>
 
 
 
