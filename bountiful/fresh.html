@@ -18,6 +18,7 @@
     <script src="scripts/script.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
     <script src="scripts/fruit.js" async></script>
+   
 
 
 
@@ -67,7 +68,7 @@
 
             <fieldset>Select one of our special fruits available
                 
-                <select id="mySelect" name="dropdown"  ></select>
+                <select multiple id="mySelect" name="dropdown"  ></select>
 
                 <div id="fruit">
                     <!-- <label id="item1" class="sbs"><input  type="radio" name="fruit" value="item1">Mango</label>
@@ -114,11 +115,11 @@
         </a> 
         
     </footer>
+   
     <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js" ></script>
-    <script defer>
+    <script >
         new MultiSelectTag('mySelect')  // id
     </script>
-    
     
 </body>
 </html>
