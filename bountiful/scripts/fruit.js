@@ -113,10 +113,10 @@ function surveyResult (){
       name.textContent = `Name: ${document.getElementById('userName').value}`;
       email.textContent = `Email: ${document.getElementById('email').value}`;
       phone.textContent = `Phone: ${document.getElementById('phone').value}`;
-      fruits.textContent = `Selected Fruits: ${firstSelection}, ${secondSelection} ,and${thirdSelection}`;
+      fruits.textContent = `Selected Fruits: ${firstSelection}, ${secondSelection} ,and ${thirdSelection}`;
       instructions.textContent = `Additional Instructions: ${document.getElementById('instructions').value}`;
 
-      date.textContent = `Date of the order: ${document.getElementById('userName')}`;
+      date.textContent = `Date of the order: ${document.getElementById('timeStamp').innerHTML}`;
 
       calories.textContent = `Total Calories: ${totalCalories}`;
       carbs.textContent = `Total Carbohydrates: ${totalCarbs}`;

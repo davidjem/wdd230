@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
     
     <script src="scripts/script.js" defer></script>
-    <script src="scripts/forecast.js" defer></script>
+    <!-- <script src="scripts/forecast.js" defer></script> -->
     <script src="scripts/fruit.js" async></script>
    
 
@@ -60,7 +60,9 @@
         <fieldset>
             
             <legend>Request Special Drink</legend>
-            <input type="hidden" name="timeStampID" id='timeStamp' />
+            <!-- <input type="hidden" name="timeStamp" id='timeStamp' /> -->
+            <p type="hidden" id="timeStamp">current</p>
+
             <label class="top">First Name*<input id="userName" type="text" name="fname" autofocus required></label>
             <label class="top">Email*<input id="email" type="email" name="emial" placeholder="youremail@any.com" required></label>
             <label class="top">Phone<input  id="phone" type="tel" name="phone" placeholder="1235551234"></label>

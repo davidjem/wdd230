@@ -106,7 +106,7 @@ let year = date.getFullYear();
 let display = `${month}-${day}-${year}`;
 
 
-// document.querySelector("#current-date").innerHTML = display;
+document.getElementById("timeStamp").innerHTML = display;
 
 
 
