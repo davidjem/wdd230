@@ -13,10 +13,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
     
     <script src="scripts/script.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
-    <script src="scripts/fruit.js" defer></script>
+    <script src="scripts/fruit.js" ></script>
 
 
 
@@ -56,15 +57,17 @@
     <form  method="get" action="thanks.html">
         <fieldset>
             
-            <legend>Information</legend>
+            <legend>Request Special Drink</legend>
             <input type="hidden" name="timeStampID" id='timeStamp' />
             <label class="top">First Name*<input type="text" name="fname" autofocus required></label>
             <label class="top">Email*<input type="email" name="emial" placeholder="youremail@any.com" required></label>
             <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
             
 
-            <fieldset>Select Fruit
+            <fieldset>Select one of our special fruits available
                 
+                <select id="mySelect" name="dropdown"  ></select>
+
                 <div id="fruit">
                     <!-- <label id="item1" class="sbs"><input  type="radio" name="fruit" value="item1">Mango</label>
                     <label id="item2"class="sbs" ><input id="item2" type="radio" name="fruit" value="item2" >Huckleberry</label>
@@ -110,5 +113,9 @@
         </a> 
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+    <script defer>
+        new MultiSelectTag('mySelect')  // id
+    </script>
 </body>
 </html>

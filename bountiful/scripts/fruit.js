@@ -7,43 +7,46 @@ async function getBusinessData() {
   const data = await response.json();
   const wrapElement = document.getElementById('fruit');
 
-  var item1 = data[Math.floor(Math.random()*data.length)];
-  var item2 = data[Math.floor(Math.random()*data.length)];
-  var item3 = data[Math.floor(Math.random()*data.length)];
+  // var item1 = data[Math.floor(Math.random()*data.length)];
+  // var item2 = data[Math.floor(Math.random()*data.length)];
+  // var item3 = data[Math.floor(Math.random()*data.length)];
 
-  const mix = [
-    item1.name, item2.name, item3.name
+  // const mix = [
+  //   item1.name, item2.name, item3.name
 
-  ]
+  // ]
  
-  console.log(mix);  
-//   for (const element in mix) {
-//     console.log(element)
-// }
+  console.log(data);  
 
-  for ( var a  in mix){
-    console.log(a);
-    let checkbox = document.createElement('input')
-    let label = document.createElement('label')
-    label.appendChild(document.createTextNode(mix[a]))
-    checkbox.type = 'radio';
-    checkbox.name = "myradio";
-    wrapElement.appendChild(checkbox);
-    wrapElement.appendChild(label)  
-  }
+  var selectElement = document.getElementById('mySelect');
+
+  data.map(item => mySelect.appendChild(new Option(item.name)).cloneNode(true));
+
+
+
+
+
+
+
+
+
+  // for ( var a  in mix){
+  //   console.log(a);
+  //   let checkbox = document.createElement('input')
+  //   let label = document.createElement('label')
+  //   let line = document.createElement('br')
+  //   label.appendChild(document.createTextNode(mix[a]))
+  //   checkbox.type = 'radio';
+  //   checkbox.name = "myradio";
+  //   wrapElement.appendChild(checkbox);
+  //   wrapElement.appendChild(label)
+  //   wrapElement.appendChild(line);  
+    
+  // }
 
 
   
-  // for (each in mix) {
 
-  //   var choiceSelection = document.createElement('input');
-  //   choiceSelection.setAttribute('type', 'radio');
-  //   choiceSelection.setAttribute('name', 'choice');
-
-  //   wrapElement.appendChild(choiceSelection);
-  //   document.wrapElement.appendChild(wrapElement);
-
-  // }
 
 
 
@@ -61,3 +64,7 @@ async function getBusinessData() {
 
 
 getBusinessData();
+
+
+src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js";
+new MultiSelectTag('mySelect');  // id
