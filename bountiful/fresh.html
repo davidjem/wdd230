@@ -61,7 +61,7 @@
             
             <legend>Request Special Drink</legend>
             <!-- <input type="hidden" name="timeStamp" id='timeStamp' /> -->
-            <p type="hidden" id="timeStamp">current</p>
+            <p  id="timeStamp">current</p>
 
             <label class="top">First Name*<input id="userName" type="text" name="fname" autofocus required></label>
             <label class="top">Email*<input id="email" type="email" name="emial" placeholder="youremail@any.com" required></label>
@@ -74,7 +74,7 @@
                     
                     ></select>
 
-                    <div id="fruit">
+                    <div id="fruit1">
                         <!-- <label id="item1" class="sbs"><input  type="radio" name="fruit" value="item1">Mango</label>
                         <label id="item2"class="sbs" ><input id="item2" type="radio" name="fruit" value="item2" >Huckleberry</label>
                         <label id="item3" class="sbs" ><input id="item3" type="radio" name="fruit" value="item3" >Blackberry</label> -->
@@ -91,7 +91,7 @@
                     
                     ></select>
 
-                    <div id="fruit">
+                    <div id="fruit2">
                         
                     </div>
                     <button type="button" onclick="getOption('#mySelect2','.output2')">Select Fruit</button>
@@ -106,7 +106,7 @@
                     
                     ></select>
 
-                    <div id="fruit">
+                    <div id="fruit3">
                         
                     </div>
                     <button  type="button" onclick="getOption('#mySelect3','.output3')">Select Fruit</button>
@@ -129,7 +129,7 @@
 
         </fieldset>
 
-        <p>Drinks submitted: <div id='clickCounter'></div></p>   
+        <p>Drinks submitted:</p>   <div id='clickCounter'></div> 
 
 
         <button id="getDrink" class="submitBtn clickButton" type="button" onclick="surveyResult(), clickButtonFunction()" >Create My drink</button>
