@@ -357,3 +357,8 @@ figure{
     color: black;
 }
 
+#references{
+    display: flex;
+    flex-direction: column;
+}
+
