@@ -30,12 +30,12 @@ footer{
    margin-left: 500px;
 } */
 .logo{
-    width: 10vh;
+    width: 100px;
     border-radius: 2em;
 
 }
 footer .logo{
-    width: 70px;
+    width: 100px;
 }
 
 
