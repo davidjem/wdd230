@@ -191,6 +191,17 @@ form button.submitBtn{
     max-width: 20rem;
 
 }
+form button{
+    border: none;
+    background-color:#64814b;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+
+}
 
 button.joinBtn{
     border: none;
@@ -296,4 +307,53 @@ figure{
     margin: 0rem;
 }
 
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5em;
+    margin-left: 35px;
+    margin-bottom: 10px;
+
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #ee5562;
+    color: white;
+  }
+
+  #weektext{
+    /* position: absolute; */
+    top: 22px;
+    left: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+    /* max-width: 50px; */
+    background-color: #0e402d9a;
+    border-radius: 2em;
+    color: black;
+}
 

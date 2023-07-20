@@ -136,16 +136,8 @@ document.getElementById("timeStamp").innerHTML = display;
   // Write the value to the div
   document.getElementById("clickCounter").innerHTML = newValue
 
-  document.getElementById("submittedDrinks").innerHTML = newValue
+  document.getElementById("submittedDrinks").innerHTML = value
 
 }
 
 // Reset local storage to 0
-function clickReset() {
-
-  localStorage.setItem("clickCounter", "0");
-  // Write the value to the div
-  document.getElementById("clickCounter").innerHTML = '0'
-
-
-}

@@ -8,11 +8,13 @@
     <!-- <link rel="stylesheet" href="../styles/normalize.css"> -->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <!-- <link rel="stylesheet" href="styles/large.css"> -->
     <link rel="icon" href="favicon.ico">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="scripts/script.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
@@ -52,10 +54,12 @@
     <main> 
         <div id="hero">
             <div class="herocard">
+                <div id="weektext">Bountiful Foods</div>
+
                 
                 <!-- <p>The hero image will go here</p> -->
                 <!-- <img id="heroimage" src="images/provohero.jpg" alt="provo city image"> -->
-                <img src="images/hero.jpg" alt="Chamber hero" sizes="50vw"
+                <img src="images/hero.jpg" alt="Chamber hero" load="lazy"sizes="50vw"
                  srcset=" images/hero200.jpg 200w,
                          images/hero500.jpg 500w,
                          images/hero800.jpg 800w"
@@ -69,7 +73,9 @@
         <div id="first-card">
             <div class="card">
                 <h1>Family operated since 1998 </h1>
-                <p>Our business is ready to serve you and your family. We are pioneers in the region .</p>
+                <p>Our business is ready to serve you and your family. We are pioneers in the region. Because we control the entire process from seed to store, Bountiful Foods use zero pesticides, 95% less water, and are 100+ times more productive on the same footprint of land than traditional agriculture. Our produce is currently available at select Whole Foods and Foragers stores in the California area and featured on the menus of local restaurants.</p>
+                <p>The company is driven by a mission to make nutritious food more accessible. Its products are now available in 800 stores, including Target, Kroger, and Whole Foods.</p>
+                <p>Each of these services is is customized to meet the needs of the client. The company’s mission is to empower people to live healthy and blissful lives.</p>
             </div>
         </div>
         <div id="spotlights">
@@ -81,29 +87,30 @@
             <div class="card">
                 <div id = "weatherContainer">
                     <div id="iconsContainer">    
-                        <div class = "icons">
-                            <p class="weather" id="day1"></p>
-                            <div class="image"><img src="images/placeholder.jpg" class="imgClass" id="img1"></div>
-                            <p class="minValues" id="day1Min">Loading...</p>
-                            <p class="maxValues" id="day1Max">Loading...</p>
-                        </div>
+                        <h2>3 Day Weather Forecast</h2>
                         <div class = "icons">
                             <p class="weather" id="day2"></p>
                             <div class="image"><img src="images/placeholder.jpg" class="imgClass" id="img2"></div>
                             <p class="minValues" id="day2Min">Loading...</p>
                             <p class="maxValues" id="day2Max">Loading...</p>
+                            <p>-------------------</p>
+
                         </div>
                         <div class = "icons">
                             <p class="weather" id="day3"></p>
                             <div class="image"><img src="images/placeholder.jpg" class="imgClass" id="img3"></div>
                             <p class="minValues" id="day3Min">Loading...</p>
                             <p class="maxValues" id="day3Max">Loading...</p>
+                            <p>-------------------</p>
+
                         </div>
                         <div class = "icons">
                             <p class="weather" id="day4"></p>
                             <div class="image"><img src="images/placeholder.jpg" class="imgClass" id="img4"></div>
                             <p class="minValues" id="day4Min">Loading...</p>
                             <p class="maxValues" id="day4Max">Loading...</p>
+                            <p>-------------------</p>
+
                         </div>
                     
                     </div>
@@ -115,7 +122,7 @@
         <div id="third-card">
             <div class="card">
                 <h2> Carlsbad </h2>
-                <p>This beautiful city located in  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt tempus ultrices. Donec ut rhoncus lacus. In pulvinar est erat, id feugiat est iaculis eget. Nunc non erat quis est hendrerit molestie tincidunt sit amet arcu. Maecenas dictum in arcu a interdum. Nunc velit lectus, cursus id magna quis, varius vulputate nunc. Aliquam eget velit et diam sagittis malesuada. Integer ac ullamcorper tellus. Sed aliquam, ipsum a tristique dictum, turpis lorem ultrices turpis, nec auctor augue mi nec nisl. Nullam tincidunt lacus quis semper porttitor. </p>
+                <p>“The Village by the Sea,” as Carlsbad is sometimes called, is known for being the home of LEGOLAND® California, but the tranquil city in San Diego County is also home to beautiful beaches, beaches, manicured golf courses, watersports, and five-star resorts. </p>
                 
             </div>
         </div>
@@ -149,8 +156,14 @@
         <div id="news">
             <div class="card">
                 <h2>Make your own drink! </h2>
-                <p><strong></strong> </p> 
-                <p id="submittedDrinks"> </p>
+                <p><strong>More than 30 exotic fruit options available! Click below.</strong> </p> 
+                <div class="card">
+
+           
+                    <button class="joinBtn" onclick="window.location.href='fresh.html'">Make your own drink here</button>
+                    <!-- <h2>Join us</h2> -->
+                </div>
+
                     
                 <!-- <p> The National Weather Service forecast calls for St. George to reach 100 degrees for the first time as early as Friday afternoon, before highs reach up to 110 degrees on Monday. </p>
                     
@@ -160,11 +173,25 @@
             </div>
         </div>
         <div id="join">
+            
             <div class="card">
+                <h2>Join us on social media! </h2>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <p>We post discounts every week!</p>
 
-           
-                <button class="joinBtn" onclick="window.location.href='fresh.html'">Make your own drink here</button>
-                <!-- <h2>Join us</h2> -->
+            </div>
+
+       
+        </div>
+
+        <div id="drinkOrders">
+            <div class="card">
+                <h2> Your orders </h2>
+                <div id='submittedDrinks'></div>
+                <p>You have requested <strong>0</strong> drinks from our website</p>
+                
             </div>
         </div>
 

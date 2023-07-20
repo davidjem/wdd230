@@ -6,18 +6,18 @@ fetch('https://api.openweathermap.org/data/2.5/forecast?q='+"carlsbad"+'&units=i
 .then(data => {
 
     //Getting the min and max values for each day
-    for(i = 0; i<4; i++){
+    for(i = 1; i<4; i++){
         document.getElementById("day" + (i+1) + "Min").innerHTML = "Min: " + Number(data.list[i].main.temp_min ).toFixed(1)+ "°";
        
     }
 
-    for(i = 0; i<4; i++){
+    for(i = 1; i<4; i++){
         document.getElementById("day" + (i+1) + "Max").innerHTML = "Max: " + Number(data.list[i].main.temp_max ).toFixed(2) + "°";
     }
     //------------------------------------------------------------
 
     //Getting Weather Icons
-     for(i = 0; i<4; i++){
+     for(i = 1; i<4; i++){
         document.getElementById("img" + (i+1)).src = "http://openweathermap.org/img/wn/"+
         data.list[i].weather[0].icon
         +".png";
@@ -50,6 +50,6 @@ function CheckDay(day){
     }
 }
 
-for(i = 0; i<5; i++){
+for(i = 1; i<4; i++){
     document.getElementById("day" + (i+1)).textContent = weekday[CheckDay(i)];
 }
